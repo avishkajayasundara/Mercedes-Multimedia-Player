@@ -1,0 +1,53 @@
+.image {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* .carousel-control-prev:hover,
+.carousel-control-next:hover{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #282c34;
+} */
+
+.carousel-caption {
+  font-family: "MBCorpoATitleCond-Regular-Web";
+  font-weight: 900;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.carousel-caption:hover {
+  transform: scale(1.2);
+}
+
+.logout {
+  margin-top: 1%;
+  margin-right: 1%;
+  align-items: center;
+  justify-content: center;
+
+  float: right;
+  position: absolute;
+  margin-top: 98px;
+  top: 80%;
+  left: 15%;
+  z-index: 100;
+  font-size: 0.9rem;
+}
+
+/* .logout {
+  margin-top: 1%;
+  margin-right: 1%;
+  align-items: center;
+  justify-content: center;
+
+  float: right;
+  position: absolute;
+  margin-top: 98px;
+  top: 80%;
+  right: 47%;
+  z-index: 100;
+  font-size: 0.9rem;
+} */
