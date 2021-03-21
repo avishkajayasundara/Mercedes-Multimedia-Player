@@ -4,8 +4,17 @@ Technology has made dealerships evolve into a completely digital experience for 
 # Solution
 A centralized audio controller web application which can connect to the devices located in each audio zone of the premises which will  redirect the audio to the speaker installed. The application can individually change playlists, songs, and volume of the music played in each of the showroom areas in real time. Different playlists can be played to match the event, crowd or area via this application at different audio zones since the application can handle multiple devices. The solution developed has 4 primary components namely: The centralized audio controller which manages the audio zones, the multi-media player instance which redirects the audio to the speakers, the server and the database.
 
-**Centralized audio controller - https://start-hack-main-controller.web.app/  
-    Multi-media player instance - https://starthack-796b2.web.app/login **
+- Centralized audio controller - https://start-hack-main-controller.web.app/  
+( Admin Controller Username- admin
+  Admin Controller Password - password  )
+    
+- Multi-media player instance - https://starthack-796b2.web.app/
+(Login with access code)
+
+
+- Server repository - https://github.com/avishkajayasundara/StartHack-Client-Application
+  
+- Multi-media player repository - https://github.com/avishkajayasundara/Mercedes-Multimedia-Player
 
 # Technologies Used
 The backend for this solution was developed using Node JS with Mongo DB as the database, whereas the central controller and the media player applications are developed using React JS. Additionally, Heroku and Firebase has been used to develop this solution.
