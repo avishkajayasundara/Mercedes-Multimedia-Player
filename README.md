@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Problem
+Technology has made dealerships evolve into a completely digital experience for customers. The success of the car industry relies on the satisfaction the customers experience during the buying process as the foundation. This solution intends to improve the customer's buying experience in terms of sound.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Solution
+A centralized audio controller web application which can connect to the devices located in each audio zone of the premises which will  redirect the audio to the speaker installed. The application can individually change playlists, songs, and volume of the music played in each of the showroom areas in real time. Different playlists can be played to match the event, crowd or area via this application at different audio zones since the application can handle multiple devices. The solution developed has 4 primary components namely: The centralized audio controller which manages the audio zones, the multi-media player instance which redirects the audio to the speakers, the server and the database.
 
-## Available Scripts
+**Centralized audio controller - https://start-hack-main-controller.web.app/  
+    Multi-media player instance - https://starthack-796b2.web.app/login **
 
-In the project directory, you can run:
+# Technologies Used
+The backend for this solution was developed using Node JS with Mongo DB as the database, whereas the central controller and the media player applications are developed using React JS. Additionally, Heroku and Firebase has been used to develop this solution.
 
-### `yarn start`
+# Future Impacts 
+The primary goal of this solution is to improve customer experience with an innovative solution which would attract the customer attention in a positive light to the cars by setting the mood. As a result of this application the Mercedes Benz company can profit with customers who show interest not just for the brand name  but also the energy and atmosphere of the dealership.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Future Enhancements
+As for the future enhancements of this solution we hope to analyze the mood of the crowd from the facial expressions exhibited and change the playlist to satisfy the customers in a any location in real-time by changing the atmosphere via the music played. Additionally, an enhancement which will automatically adjust the volume of the audio played via the data acquired from the sensors by monitoring the crowd density in a location too can be implemented.
